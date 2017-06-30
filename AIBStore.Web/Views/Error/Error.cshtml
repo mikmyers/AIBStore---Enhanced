@@ -1,0 +1,19 @@
+﻿@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@model System.Exception
+
+<div id="Main">
+    <h2>An error was detected within the system and the current operation has failed!</h2>
+    <p>
+        Details of the error have been automatically logged to help us diagnose the problem.
+        You may return to the previous page and attempt the operation again, but please consider that the problem may still exist.
+    </p>
+    <p>If the problem continues, please consider reporting the problem via the help menu option including the steps taken to reproduce the problem.</p>
+    @*Only allow users who have a developer role visibility of the exception
+        @if (Model != null) {
+        <h2>Exception Details</h2>
+         @Zionmjj.MVC.Helpers.ExceptionHelper.GetErrorMessage((Exception)Model)
+        }*@
+</div>

@@ -1,0 +1,50 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26430.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AIBStore.Domain", "AIBStore.Domain\AIBStore.Domain.csproj", "{53B776E6-5CF1-4ED6-A07E-616F58A3DC5C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AIBStore.MVC", "AIBStore.MVC\AIBStore.MVC.csproj", "{C69DDEB2-BBD2-426C-9B7C-AD1AFE6559A6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AIBStore.WebAPI", "AIBStore.WebAPI\AIBStore.WebAPI.csproj", "{DA4FFBB7-D951-4F11-B396-6D047353BC74}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AIBStore.Cache", "AIBStore.Cache\AIBStore.Cache.csproj", "{E9BD1794-83FE-4FBA-8F4D-EED243C29970}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AIBStore.Constants", "AIB.Constants\AIBStore.Constants.csproj", "{42B6D727-D17B-41EF-AC87-A104F950EDD2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{53B776E6-5CF1-4ED6-A07E-616F58A3DC5C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{53B776E6-5CF1-4ED6-A07E-616F58A3DC5C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{53B776E6-5CF1-4ED6-A07E-616F58A3DC5C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{53B776E6-5CF1-4ED6-A07E-616F58A3DC5C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C69DDEB2-BBD2-426C-9B7C-AD1AFE6559A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C69DDEB2-BBD2-426C-9B7C-AD1AFE6559A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C69DDEB2-BBD2-426C-9B7C-AD1AFE6559A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C69DDEB2-BBD2-426C-9B7C-AD1AFE6559A6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DA4FFBB7-D951-4F11-B396-6D047353BC74}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA4FFBB7-D951-4F11-B396-6D047353BC74}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA4FFBB7-D951-4F11-B396-6D047353BC74}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA4FFBB7-D951-4F11-B396-6D047353BC74}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E9BD1794-83FE-4FBA-8F4D-EED243C29970}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E9BD1794-83FE-4FBA-8F4D-EED243C29970}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E9BD1794-83FE-4FBA-8F4D-EED243C29970}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E9BD1794-83FE-4FBA-8F4D-EED243C29970}.Release|Any CPU.Build.0 = Release|Any CPU
+		{42B6D727-D17B-41EF-AC87-A104F950EDD2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{42B6D727-D17B-41EF-AC87-A104F950EDD2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{42B6D727-D17B-41EF-AC87-A104F950EDD2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{42B6D727-D17B-41EF-AC87-A104F950EDD2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		EnterpriseLibraryConfigurationToolBinariesPathV6 = packages\EnterpriseLibrary.Common.6.0.1304.0\lib\NET45;packages\EnterpriseLibrary.ExceptionHandling.6.0.1304.0\lib\NET45
+		EnterpriseLibraryConfigurationToolBinariesPath = packages\Unity.2.1.505.0\lib\NET35
+	EndGlobalSection
+EndGlobal

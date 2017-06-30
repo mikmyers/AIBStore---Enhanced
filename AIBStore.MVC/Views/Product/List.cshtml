@@ -1,0 +1,16 @@
+﻿@model AIBStore.MVC.Models.ProductsListViewModel
+
+@{
+    ViewBag.Title = "Products";
+}
+
+@foreach (var p in Model.Products)
+{
+    @Html.Partial("ProductSummary", p)
+}
+
+<div class="pager">
+    @Html.PageLinks(Model.PageInfo, x => Url.Action("List", new { pageNo = x, category = Model.CurrCategory }))
+</div>
+
+
